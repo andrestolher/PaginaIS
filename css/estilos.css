@@ -268,7 +268,7 @@ body {
 /* Testimony */
 
 .testimony{
-    background-color: #e5e5f7;
+    background-color: #41657e;
 }
 
 .testimony__container{
@@ -276,6 +276,7 @@ body {
     grid-template-columns: 50px 1fr 50px;
     gap: 1em;
     align-items: center;
+    
 }
 
 .testimony__body{
