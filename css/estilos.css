@@ -67,6 +67,7 @@ body {
 }
 
 .nav__items {
+    font-size: 25px;
     list-style: none;
    
 }
