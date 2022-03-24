@@ -67,6 +67,7 @@ body {
 }
 
 .nav__items {
+    font-size: 25px;
     list-style: none;
    
 }
@@ -94,6 +95,10 @@ body {
 
 .nav__close {
     display: var(--show, none);
+}
+
+.img{
+    height: 100px;
 }
 
 
