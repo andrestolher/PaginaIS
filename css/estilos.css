@@ -2,7 +2,7 @@
 
 :root {
     --padding-container: 100px 0;
-    --color-title: #001A49;
+    --color-title: #F2C335;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
     position: relative;
     display: grid;
     grid-template-rows: 100px 1fr;
-    color: #fff;
+    color: #ffffff;
 }
 
 .hero::before {
@@ -113,7 +113,7 @@ body {
 
 .cta {
     display: inline-block;
-    background-color: #2091F9;
+    background-color: #F2C335;
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -165,7 +165,7 @@ body {
 /* Knowledge */
 
 .knowledge {
-    background-color: #e5e5f7;
+    background-color: #e5f7e7;
     background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
@@ -224,10 +224,10 @@ body {
 .price__element--best{
     width: 370px;
     padding: 60px 40px;
-    background-color: #FF7143;
+    background-color: #a16f40;
     --color-plan: rgb(255 255 255 / 75%);
     --color-price: #fff;
-    --bg-cta: #9F3919;
+    --bg-cta: #593E25;
     --color-cta: #FFF;
     --color-items: #fff;
 }
@@ -268,7 +268,7 @@ body {
 /* Testimony */
 
 .testimony{
-    background-color: #41657e;
+    background-color: #024959;
 }
 
 .testimony__container{
