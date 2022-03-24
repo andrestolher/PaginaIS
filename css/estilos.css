@@ -228,8 +228,8 @@ body {
 }
 
 .price__element--best{
-    width: 370px;
-    padding: 60px 40px;
+    width: 330px;
+    padding: 40px;
     background-color: #a16f40;
     --color-plan: rgb(255 255 255 / 75%);
     --color-price: #fff;
