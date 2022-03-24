@@ -215,16 +215,16 @@ body {
 }
 
 .price__element{
-    background-color: #e5e5f7;
+    background-color: #A1A2A6;
     text-align: center;
     border-radius: 10px;
     width: 330px;
     padding: 40px;
-    --color-plan: #696871;
+    --color-plan: #000000;
     --color-price: #1D293F;
     --bg-cta: #fff;
-    --color-cta: #5454D4;
-    --color-items: #696871;
+    --color-cta: #1D293F;
+    --color-items: #000000;
 }
 
 .price__element--best{
