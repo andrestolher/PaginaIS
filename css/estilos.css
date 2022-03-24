@@ -2,7 +2,7 @@
 
 :root {
     --padding-container: 100px 0;
-    --color-title: #F2C335;
+    --color-title: #d1972b;
 }
 
 body {
@@ -62,14 +62,20 @@ body {
     grid-auto-flow: column;
     grid-auto-columns: max-content;
     gap: 2em;
+    
 }
 
 .nav__items {
     list-style: none;
+   
 }
 
 .nav__links {
-    color: #fff;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav__links2 {
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -321,6 +327,13 @@ body {
     width: 90%;
     cursor: pointer;
 }
+.testimony__review{
+    color: #e5e5f7;
+    display: inline-block;
+    padding: 5px;
+   
+    font-size:larger;
+}
 
 /* Questions */
 
@@ -338,7 +351,7 @@ body {
 .questions__padding{
     padding: 0;
     transition: padding .3s;
-    border: 1px solid #5454D4;
+    border: 1px solid #024959;
     border-radius: 6px;
 }
 
@@ -397,7 +410,7 @@ body {
 /* Footer */
 
 .footer{
-    background-color: #1D293F;
+    background-color: #A1A2A6;
 }
 
 .footer__title{
@@ -407,7 +420,7 @@ body {
 }
 
 .footer__title, .footer__newsletter{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -415,7 +428,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgb(0, 0, 0);
     padding-bottom: 60px;
 }
 
@@ -457,7 +470,7 @@ body {
     display: inline-block;
     height: 50px;
     padding: 0 20px ;
-    background-color: #2091F9;
+    background-color: #F2C335;
     border: none;
     font-size: 1rem;
     color: #fff;
@@ -468,7 +481,7 @@ body {
 .footer__copy{
     --padding-container: 30px 0;
     text-align: center;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .footer__copyright{
@@ -492,7 +505,7 @@ body {
 
     .nav__link--menu{
         position: fixed;
-        background-color: #000;
+        background-color: rgb(0, 0, 0);
         top: 0;
         left: 0;
         height: 100%;
