@@ -97,6 +97,10 @@ body {
     display: var(--show, none);
 }
 
+.img{
+    height: 100px;
+}
+
 
 /* Hero container */
 
