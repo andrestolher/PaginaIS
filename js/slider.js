@@ -33,8 +33,8 @@
 (function(){
     
     const sliders = [...document.querySelectorAll('.specialists__body')];
-    const buttonNext = document.querySelector('#next');
-    const buttonBefore = document.querySelector('#before');
+    const buttonNext = document.querySelector('#next1');
+    const buttonBefore = document.querySelector('#before1');
     let value;   
 
     buttonNext.addEventListener('click', ()=>{
