@@ -341,6 +341,70 @@ body {
     font-size:larger;
 }
 
+/* Specialists */
+
+.specialists{
+    background-color: #024959;
+}
+
+.specialists__container{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+    align-items: center;
+    
+}
+
+.specialists__body{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.specialists__body--show{
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.specialists__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.specialists__texts{
+    max-width: 700px;
+}
+
+.specialists__course{
+    background-color: #a1a2a642;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+
+.specialists__arrow{
+    width: 90%;
+    cursor: pointer;
+}
+.specialists__review{
+    color: #e5e5f7;
+    display: inline-block;
+    padding: 5px;
+   
+    font-size:larger;
+}
+
 /* Questions */
 
 .questions{
