@@ -41,6 +41,11 @@ body {
     z-index: -1;
 }
 
+.imgteam{
+    width: 80%;
+    border-radius: 10%;
+}
+
 
 /* Nav */
 
