@@ -98,7 +98,7 @@ body {
 }
 
 .img{
-    width: 350px;
+    width: 300px;
 }
 
 
@@ -280,7 +280,8 @@ body {
 /* Testimony */
 
 .testimony{
-    background-color: #024959;
+    background-color: #FFFFE0;
+    
 }
 
 .testimony__container{
@@ -324,9 +325,10 @@ body {
 
 .testimony__course{
     background-color: #a1a2a642;
-    color: #fff;
+    color: #1D293F;
     display: inline-block;
     padding: 5px;
+    
 }
 
 .testimony__arrow{
@@ -334,11 +336,11 @@ body {
     cursor: pointer;
 }
 .testimony__review{
-    color: #e5e5f7;
+    color: #1D293F;
     display: inline-block;
     padding: 5px;
    
-    font-size:larger;
+    font-size:  20px;;
 }
 
 /* Specialists */
